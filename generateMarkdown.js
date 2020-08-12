@@ -33,7 +33,7 @@ const generateMarkdown = (answers) => {
 
   ## Contact us
   www.github.com/${answers.username}
-  ${emailAddr}
+  ${answers.emailAddr}
 `;
 }
 
