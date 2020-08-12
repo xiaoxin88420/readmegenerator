@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown(answers) {
+const generateMarkdown = (answers) => {
   return `
   # ${answers.title}
   

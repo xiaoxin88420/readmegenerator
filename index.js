@@ -52,7 +52,7 @@ const writeToFile = () => {
             type: "list",
             name: "license",
             message: questions[5],
-            Choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
         },
         {
             type: "input",
@@ -76,7 +76,7 @@ const writeToFile = () => {
         }
     ])
     .then(answers => {
-        fs.appendFile("readme.md", generateMarkdown, (err) =>{
+        fs.appendFile("readme.md", generateMarkdown(answers), (err) =>{
             if (err){ console.log(err)}
             console.log('File Updated!')
         })
