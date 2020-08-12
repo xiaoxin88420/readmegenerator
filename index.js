@@ -1,7 +1,7 @@
 const fs = require('fs')
 const inquirer = require('inquirer');
 const Choices = require('inquirer/lib/objects/choices');
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./generateMarkdown')
 
 // array of questions for user
 const questions = [
