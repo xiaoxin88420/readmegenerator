@@ -1,37 +1,39 @@
-function generateMarkdown(answers) {
-  return `
-  # ${answers.title}
+
+  # readme generator
   
 
-  ${answers.description}
-
+  awrb
 
   ## Table of Contents
-  ${answers.tableOfContents}
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usageInfo)
+  - [License](#license)
+  - [Contributing](#contribution)
+  - [Tests](#tests)
+  - [Questions](#username)
 
 
   ## How to install the app
-  ${answers.installation}
+  aerghbaert
 
 
   ## How to use the app
-  ${answers.usageInfo}
+  aregaertgh
 
 
   ## license
-  ${answers.license}
+  APACHE 2.0
 
 
   ## The way to make a contribution
-  ${answers.contribution}
+  aertbhaewrg
 
 
   ## Here are some tests to the app
-  ${answers.tests}
+  ertgbhaethbn
 
 
   ## Contact us
-  www.github.com/${answers.username}
-  ${emailAddr}
-`;
-}
+  www.github.com/aetbhaet
+  aethbneatgh

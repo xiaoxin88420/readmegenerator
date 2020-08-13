@@ -7,7 +7,6 @@ const generateMarkdown = require('./generateMarkdown')
 const questions = [
     "What is the title of this file?",
     "Please describe your app.",
-    "What are the contents of this file?",
     "How to install your app?",
     "How to use your app?",
     "What license did you use?",
@@ -35,44 +34,39 @@ const writeToFile = () => {
         },
         {
             type: "input",
-            name: "tableOfContents",
+            name: "installation",
             message: questions[2]
         },
         {
             type: "input",
-            name: "installation",
-            message: questions[3]
-        },
-        {
-            type: "input",
             name: "usageInfo",
-            message: questions[4]
+            message: questions[3]
         },
         {
             type: "list",
             name: "license",
-            message: questions[5],
+            message: questions[4],
             choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
         },
         {
             type: "input",
             name: "contribution",
-            message: questions[6]
+            message: questions[5]
         },
         {
             type: "editor",
             name: "tests",
-            message: questions[7]
+            message: questions[6]
         },
         {
             type: "input",
             name: "username",
-            message: questions[8]
+            message: questions[7]
         },
         {
             type: "input",
             name: "emailAddr",
-            message: questions[9]
+            message: questions[8]
         }
     ])
     .then(answers => {

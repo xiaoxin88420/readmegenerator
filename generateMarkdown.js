@@ -6,9 +6,14 @@ const generateMarkdown = (answers) => {
 
   ${answers.description}
 
-
   ## Table of Contents
-  ${answers.tableOfContents}
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 
   ## How to install the app
