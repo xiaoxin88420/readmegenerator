@@ -3,7 +3,7 @@ const generateMarkdown = (answers) => {
   return `
   # ${answers.title}
   
-
+  ## Description
   ${answers.description}
 
   ## Table of Contents
@@ -16,27 +16,27 @@ const generateMarkdown = (answers) => {
   - [Questions](#questions)
 
 
-  ## How to install the app
+  ## Installation
   ${answers.installation}
 
 
-  ## How to use the app
+  ## Usage
   ${answers.usageInfo}
 
 
-  ## license
+  ## License
   ${answers.license}
 
 
-  ## The way to make a contribution
+  ## Contribution
   ${answers.contribution}
 
 
-  ## Here are some tests to the app
+  ## Tests
   ${answers.tests}
 
 
-  ## Contact us
+  ## Questions
   www.github.com/${answers.username}
   ${answers.emailAddr}
 `;

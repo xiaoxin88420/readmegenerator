@@ -1,39 +1,39 @@
 
-  # readme generator
+  # Readme Generator
   
 
-  awrb
+  It's an amazing app that could help users to create a responsive readme file.
 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
-  - [Usage](#usageInfo)
+  - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contribution)
+  - [Contribution](#contribution)
   - [Tests](#tests)
-  - [Questions](#username)
+  - [Questions](#questions)
 
 
   ## How to install the app
-  aerghbaert
+  1.Clone it from my GitHub account  2. type in "npm i" on the command line to install all the modules needed.   3.Then start with "node index.js"
 
 
   ## How to use the app
-  aregaertgh
+  By answering all the prompted questions one by one, all the information that the users had put in will be renderred on the readme file.
 
 
   ## license
-  APACHE 2.0
+  None
 
 
   ## The way to make a contribution
-  aertbhaewrg
+  I take cash only. Thanks.
 
 
   ## Here are some tests to the app
-  ertgbhaethbn
+  This is a test only.
 
 
   ## Contact us
-  www.github.com/aetbhaet
-  aethbneatgh
+  www.github.com/xiaoxin88420
+  xiaoxin88420@hotmail.com
